@@ -41,17 +41,17 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="description">Цитата</label>
-                                    <textarea name="description" class="form-control" id="description" rows="3" placeholder="Цитата ..." required></textarea>
+                                    <textarea name="description" class="form-control @error('description') is-invalid @enderror" id="description" rows="3" placeholder="Цитата ..." required ></textarea>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="content">Контент</label>
-                                    <textarea name="content" class="form-control" id="content" rows="7" placeholder="Цитата ..." required></textarea>
+                                    <textarea name="content" class="form-control @error('content') is-invalid @enderror" id="content" rows="7" placeholder="Цитата ..." required></textarea>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="category_id">Категория</label>
-                                    <select class="form-control" id="category_id" name="category_id" required>
+                                    <select class="form-control @error('category_id') is-invalid @enderror" id="category_id" name="category_id"  required>
                                         <option>Выбор категорию</option>
                                         @foreach($categories as $key => $value)
                                             <option value="{{ $key }}">{{ $value }}</option>
@@ -61,7 +61,7 @@
 
                                 <div class="form-group">
                                     <label for="tags">Multiple</label>
-                                    <select name="tags[]" id="tags" class="select2" multiple="multiple" data-placeholder="Выбор тегов" style="width: 100%" required>
+                                    <select name="tags[]" id="tags" class="select2" multiple="multiple" data-placeholder="Выбор тегов" style="width: 100%" >
                                         @foreach($tags as $key => $value)
                                             <option value="{{$key}}">{{$value}}</option>
                                         @endforeach
@@ -72,7 +72,7 @@
                                     <label for="thumbnail">Изображение</label>
                                     <div class="input-group">
                                         <div class="custom-file">
-                                            <input type="file" name="thumbnail" class="custom-file-input" id="thumbnail" required>
+                                            <input type="file" name="thumbnail" class="custom-file-input" id="thumbnail" >
                                             <label class="custom-file-label" for="thumbnail">Choose file</label>
                                         </div>
                                     </div>
