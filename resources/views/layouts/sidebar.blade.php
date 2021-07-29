@@ -26,7 +26,7 @@
     </div><!-- end title -->
 
     <div class="single-post-media">
-        <img src="upload/market_blog_06.jpg" alt="" class="img-fluid">
+        <img src="/assets/front/upload/market_blog_06.jpg" alt="" class="img-fluid">
     </div><!-- end media -->
 
     <div class="blog-content">
@@ -41,7 +41,7 @@
 
         </div><!-- end pp -->
 
-        <img src="upload/market_blog_02.jpg" alt="" class="img-fluid img-fullwidth">
+        <img src="/assets/front/upload/market_blog_02.jpg" alt="" class="img-fluid img-fullwidth">
 
         <div class="pp">
             <h3><strong>Nam non velit est. Sed lobortis arcu vitae nunc molestie consectetur. Nam eget neque ac ex fringilla dignissim eu ac est. Nunc et nisl vel odio posuere. </strong></h3>
@@ -60,7 +60,7 @@
 
             <p>Proin ultricies nulla consectetur, sollicitudin dolor at, sollicitudin mauris. Maecenas at nunc nunc. Ut nulla felis, tincidunt et porttitor at, rutrum in dolor. Aenean id tincidunt ligula. Donec vitae placerat odio. Mauris accumsan nibh ut nunc maximus, ac auctor elit vehicula. Cras leo sem, vehicula a ultricies ac, condimentum vitae lectus. Sed ut eros euismod, luctus nisl eu, congue odio. </p>
 
-            <p><img src="upload/market_blog_01.jpg" class="float-left" width="340" alt="">Suspendisse ultrices placerat dolor sed efficitur. Morbi in laoreet diam. Pellentesque habitant m tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut massa id lectus laoreet porta non in metus. Donec nibh justo, tincidunt non justo ut, tincidunt malesuada turpis. Cras pellentesque sollicitudin ex eget pharetra.orbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut massa id lectus laoreet porta non in metus. Donec nibh justo, tincidunt non justo ut, tincidunt malesuada turpis. Cras pellentesque sollicitudin ex eget pharetra.</p>
+            <p><img src="/assets/front/upload/market_blog_01.jpg" class="float-left" width="340" alt="">Suspendisse ultrices placerat dolor sed efficitur. Morbi in laoreet diam. Pellentesque habitant m tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut massa id lectus laoreet porta non in metus. Donec nibh justo, tincidunt non justo ut, tincidunt malesuada turpis. Cras pellentesque sollicitudin ex eget pharetra.orbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut massa id lectus laoreet porta non in metus. Donec nibh justo, tincidunt non justo ut, tincidunt malesuada turpis. Cras pellentesque sollicitudin ex eget pharetra.</p>
 
             <h3><strong>Nam non velit est. Sed lobortis arcu vitae nunc molestie consectetur. Nam eget neque ac ex fringilla dignissim eu ac est. Nunc et nisl vel odio posuere. </strong></h3>
 
@@ -93,7 +93,7 @@
         <div class="col-lg-12">
             <div class="banner-spot clearfix">
                 <div class="banner-img">
-                    <img src="upload/banner_01.jpg" alt="" class="img-fluid">
+                    <img src="/assets/front/upload/banner_01.jpg" alt="" class="img-fluid">
                 </div><!-- end banner-img -->
             </div><!-- end banner -->
         </div><!-- end col -->
@@ -105,7 +105,7 @@
         <h4 class="small-title">About author</h4>
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                <img src="upload/author.jpg" alt="" class="img-fluid rounded-circle">
+                <img src="/assets/front/upload/author.jpg" alt="" class="img-fluid rounded-circle">
             </div><!-- end col -->
 
             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
@@ -134,7 +134,7 @@
                 <div class="blog-box">
                     <div class="post-media">
                         <a href="marketing-single.html" title="">
-                            <img src="upload/market_blog_02.jpg" alt="" class="img-fluid">
+                            <img src="/assets/front/upload/market_blog_02.jpg" alt="" class="img-fluid">
                             <div class="hovereffect">
                                 <span class=""></span>
                             </div><!-- end hover -->
@@ -152,7 +152,7 @@
                 <div class="blog-box">
                     <div class="post-media">
                         <a href="marketing-single.html" title="">
-                            <img src="upload/market_blog_03.jpg" alt="" class="img-fluid">
+                            <img src="/assets/front/upload/market_blog_03.jpg" alt="" class="img-fluid">
                             <div class="hovereffect">
                                 <span class=""></span>
                             </div><!-- end hover -->
@@ -177,7 +177,7 @@
                 <div class="comments-list">
                     <div class="media">
                         <a class="media-left" href="#">
-                            <img src="upload/author.jpg" alt="" class="rounded-circle">
+                            <img src="/assets/front/upload/author.jpg" alt="" class="rounded-circle">
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading user_name">Amanda Martines <small>5 days ago</small></h4>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="media">
                         <a class="media-left" href="#">
-                            <img src="upload/author_01.jpg" alt="" class="rounded-circle">
+                            <img src="/assets/front/upload/author_01.jpg" alt="" class="rounded-circle">
                         </a>
                         <div class="media-body">
 
@@ -200,7 +200,7 @@
                     </div>
                     <div class="media last-child">
                         <a class="media-left" href="#">
-                            <img src="upload/author_02.jpg" alt="" class="rounded-circle">
+                            <img src="/assets/front/upload/author_02.jpg" alt="" class="rounded-circle">
                         </a>
                         <div class="media-body">
 

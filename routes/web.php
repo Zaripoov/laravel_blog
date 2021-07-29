@@ -18,6 +18,8 @@ Route::get('/article/{slug}', [\App\Http\Controllers\PostController::class, 'sho
 
 Route::get('/category/{slug}',[\App\Http\Controllers\CategoryController::class, 'show'])->name('categories.single');
 
+Route::get('/tag/{slug}',[\App\Http\Controllers\TagController::class, 'show'])->name('tags.single');
+
 Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\Admin', 'middleware' => 'admin'], function (){
     Route::get('/', [\App\Http\Controllers\Admin\MainController::class, 'index'])->name('admin.index');
     Route::resource('/categories', 'CategoryController');
