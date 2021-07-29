@@ -14,6 +14,12 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('assets/admin/css/admin.css')}}">
+
+    <style>
+        .ck-editor__editable_inline{
+            min-height: 300px;
+        }
+    </style>
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
@@ -305,6 +311,68 @@
             $(this).closest('.has-treeview').addClass('menu-open');
         }
     });
+</script>
+
+<script src="{{ asset('assets/admin/ckeditor5/build/ckeditor.js') }}"> </script>
+<script src="{{ asset('assets/admin/ckfinder/ckfinder/ckfinder.js') }}"> </script>
+
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#description' ), {
+            toolbar: [ 'heading', '|', 'bold', 'italic', '|', 'undo', 'redo' ]
+        } )
+        .catch( function( error ) {
+            console.error( error );
+        } );
+
+    ClassicEditor
+        .create( document.querySelector( '#content' ), {
+            ckfinder: {
+                uploadUrl: '/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json'
+            },
+            toolbar: {
+                items: [
+                    'heading',
+                    '|',
+                    'bold',
+                    'italic',
+                    'link',
+                    'bulletedList',
+                    'numberedList',
+                    '|',
+                    'outdent',
+                    'indent',
+                    'alignment',
+                    '|',
+                    'blockQuote',
+                    'insertTable',
+                    'undo',
+                    'redo',
+                    'CKFinder',
+                    'mediaEmbed'
+                ]
+            },
+            language: 'ru',
+            image: {
+                toolbar: [
+                    'imageTextAlternative',
+                    'imageStyle:inline',
+                    'imageStyle:block',
+                    'imageStyle:side'
+                ]
+            },
+            table: {
+                contentToolbar: [
+                    'tableColumn',
+                    'tableRow',
+                    'mergeTableCells'
+                ]
+            },
+        } )
+        .catch( function( error ) {
+            console.error( error );
+        } );
+
 </script>
 </body>
 </html>

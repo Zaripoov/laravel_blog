@@ -46,7 +46,7 @@
 
                                 <div class="form-group">
                                     <label for="content">Контент</label>
-                                    <textarea name="content" class="form-control @error('content') is-invalid @enderror" id="content" rows="7" placeholder="Цитата ..." required></textarea>
+                                    <textarea name="content" class="form-control @error('content') is-invalid @enderror" id="content" rows="7" placeholder="Контент ..." required></textarea>
                                 </div>
 
                                 <div class="form-group">
