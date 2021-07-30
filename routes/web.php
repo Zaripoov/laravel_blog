@@ -20,6 +20,8 @@ Route::get('/category/{slug}',[\App\Http\Controllers\CategoryController::class, 
 
 Route::get('/tag/{slug}',[\App\Http\Controllers\TagController::class, 'show'])->name('tags.single');
 
+Route::get('/search',[\App\Http\Controllers\SearchController::class, 'index'])->name('search');
+
 Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\Admin', 'middleware' => 'admin'], function (){
     Route::get('/', [\App\Http\Controllers\Admin\MainController::class, 'index'])->name('admin.index');
     Route::resource('/categories', 'CategoryController');
